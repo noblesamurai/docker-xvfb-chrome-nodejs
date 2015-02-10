@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM phusion/baseimage:latest
 
 # Use closest ubuntu mirrors
 ADD ubuntu-mirrors /tmp/ubuntu-mirrors
